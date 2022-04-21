@@ -1,4 +1,4 @@
-# mas-mas-movies
+# mas-mas-movies.github.io
 
 ini berisi file latihan api saya
 
