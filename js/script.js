@@ -1,6 +1,5 @@
 // membuat api connecton menggunakan ajax agar lebih mudah dari pada jsnya sendiri karna parameter aslinya json adalah ajax
-
-$('#search-button').on('click', function () {
+function searchMovie() {
     $('#movie-list').html('');
 
     $.ajax({
@@ -43,4 +42,15 @@ $('#search-button').on('click', function () {
             }
         }
     });
+}
+$('#search-button').on('click', function () {
+    searchMovie();
+});
+
+$('#search-input').on('keyup', function (e) {
+    if (e.which === 13) {
+        searchMovie();
+
+    };
+
 });
