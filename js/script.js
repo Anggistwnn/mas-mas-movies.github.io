@@ -1,4 +1,4 @@
-// membuat api connecton menggunakan ajax agar lebih mudah dari pada jsnya sendiri karna parameter aslinya json adalah ajax
+// membuat api connecton menggunakan ajax agar lebih mudah dari pada jsnya sendiri karna parameter ORIGINALNYA json adalah ajax
 function searchMovie() {
     $('#movie-list').html('');
 
